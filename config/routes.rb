@@ -10,6 +10,6 @@ Rails.application.routes.draw do
     end
   end
 
-  get '#path', to: 'path#index', via :all
+  get '#path', to: 'path#index'  #, via :all
 
 end
